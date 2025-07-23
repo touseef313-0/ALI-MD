@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~eY8l2ASL#k-s5x0axv3xTT_koCUP6Ehz2kLgw7lKS9oTSCX_7o-s",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "on",
 // add your Session Id 
@@ -41,10 +41,10 @@ BOT_NAME: process.env.BOT_NAME || "ALI-MD",
 STICKER_NAME: process.env.STICKER_NAME || "ALI-MD",    
 VPS: process.env.VPS || "",
 // type sticker pack name 
-CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
-OWNER_REACT: process.env.OWNER_REACT || "false",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
+OWNER_REACT: process.env.OWNER_REACT || "true",
 // make this true for custum emoji react    
-CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
+CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝",
 // chose custom react emojis by yourself 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "923003588997",
 // add your bot owner number
